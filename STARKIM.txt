@@ -1,0 +1,1 @@
+mysqldump -u root -p --routines --events --triggers --databases STARKIM > respaldo.sql
