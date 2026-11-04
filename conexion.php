@@ -1,4 +1,4 @@
-<?php
+<?php // no deben usar ROOT en produccion
 $conexion = new mysqli("localhost", "root", "", "STARKIM");
 
 if ($conexion->connect_error) {
